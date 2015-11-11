@@ -25,9 +25,6 @@ class HangpersonApp < Sinatra::Base
     erb :new
   end
   
-  post '/new' do
-    erb :new
-  end
 
   
   post '/create' do
